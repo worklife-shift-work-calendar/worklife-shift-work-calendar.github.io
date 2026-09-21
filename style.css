@@ -95,7 +95,19 @@ h2 { font-size: 1.25rem; margin: 30px 0 8px; }
 h3 { font-size: 1.05rem; margin: 22px 0 6px; }
 
 p, li { margin: 0 0 10px; }
-ul { padding-left: 1.25rem; }
+ul, ol { padding-left: 1.25rem; }
+
+/* Tall portrait screen recordings: cap the height so a phone-shaped video never fills a desktop
+   screen, and let it shrink to the column on a phone. */
+.guide-video {
+  display: block;
+  max-width: 100%;
+  max-height: 78vh;
+  width: auto;
+  margin: 16px auto 4px;
+  border-radius: 18px;
+  background: #000;
+}
 
 .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 18px; }
 
