@@ -109,6 +109,7 @@ ul, ol { padding-left: 1.25rem; }
   background: #000;
 }
 
+.guide-image { display: block; width: 100%; max-width: 360px; height: auto; margin: 18px auto; border-radius: 18px; }
 .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 18px; }
 
 .summary {
